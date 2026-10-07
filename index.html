@@ -138,7 +138,6 @@
 
                 <!-- Right Action Buttons -->
                 <div class="hidden md:flex items-center gap-3">
-                    <!-- Dark/Light Mode Switcher Button -->
                     <button onclick="toggleTheme()" aria-label="Toggle Theme" class="theme-toggle-btn w-10 h-10 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 transition-all flex items-center justify-center focus:outline-none" title="Switch Theme">
                         <i class="theme-icon fa-solid fa-moon text-base"></i>
                     </button>
@@ -407,7 +406,7 @@
                         <div>
                             <div class="flex justify-between text-xs font-medium mb-1">
                                 <span class="text-slate-700 dark:text-slate-300">.NET Core Web API / C#</span>
-                                <span class="text-emerald-600 dark:text-emerald-400 font-semibold">88%</span>
+                                <span class="text-emerald-500 font-semibold">88%</span>
                             </div>
                             <div class="w-full h-1.5 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
                                 <div class="h-full bg-emerald-500 rounded-full" style="width: 88%"></div>
@@ -415,49 +414,38 @@
                         </div>
                         <div>
                             <div class="flex justify-between text-xs font-medium mb-1">
-                                <span class="text-slate-700 dark:text-slate-300">REST API & GraphQL Integration</span>
-                                <span class="text-emerald-600 dark:text-emerald-400 font-semibold">95%</span>
+                                <span class="text-slate-700 dark:text-slate-300">SQL Server & PostgreSQL</span>
+                                <span class="text-emerald-500 font-semibold">85%</span>
                             </div>
                             <div class="w-full h-1.5 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
-                                <div class="h-full bg-emerald-500 rounded-full" style="width: 95%"></div>
+                                <div class="h-full bg-emerald-500 rounded-full" style="width: 85%"></div>
                             </div>
                         </div>
                         <div>
                             <div class="flex justify-between text-xs font-medium mb-1">
-                                <span class="text-slate-700 dark:text-slate-300">SQL Server / MongoDB</span>
-                                <span class="text-emerald-600 dark:text-emerald-400 font-semibold">82%</span>
+                                <span class="text-slate-700 dark:text-slate-300">RESTful Services & Swagger</span>
+                                <span class="text-emerald-500 font-semibold">90%</span>
                             </div>
                             <div class="w-full h-1.5 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
-                                <div class="h-full bg-emerald-500 rounded-full" style="width: 82%"></div>
+                                <div class="h-full bg-emerald-500 rounded-full" style="width: 90%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- DevOps & Modern Engineering -->
-                <div class="skill-card glass-panel p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-red-500/40 transition-all group md:col-span-2 lg:col-span-2" data-category="tools">
+                <!-- Tools & DevOps -->
+                <div class="skill-card glass-panel p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-red-500/40 transition-all group" data-category="tools">
                     <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-500 dark:text-purple-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                        <i class="fa-solid fa-gears"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">DevOps, Docker & Unit Testing</h3>
-                    <p class="text-xs text-slate-600 dark:text-slate-400 mb-4">Company-preferred practices for scalable deployments, automated CI/CD, containerization, and unit testing.</p>
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                        <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl border border-slate-300 dark:border-slate-800 text-center">
-                            <i class="fa-brands fa-docker text-blue-500 dark:text-blue-400 text-lg mb-1 block"></i>
-                            <span class="text-xs font-semibold text-slate-800 dark:text-slate-200">Docker Containers</span>
-                        </div>
-                        <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl border border-slate-300 dark:border-slate-800 text-center">
-                            <i class="fa-brands fa-aws text-amber-500 dark:text-amber-400 text-lg mb-1 block"></i>
-                            <span class="text-xs font-semibold text-slate-800 dark:text-slate-200">Cloud (AWS/Azure)</span>
-                        </div>
-                        <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl border border-slate-300 dark:border-slate-800 text-center">
-                            <i class="fa-solid fa-flask text-emerald-500 dark:text-emerald-400 text-lg mb-1 block"></i>
-                            <span class="text-xs font-semibold text-slate-800 dark:text-slate-200">Jest / Cypress Test</span>
-                        </div>
-                        <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl border border-slate-300 dark:border-slate-800 text-center">
-                            <i class="fa-brands fa-git-alt text-orange-500 dark:text-orange-400 text-lg mb-1 block"></i>
-                            <span class="text-xs font-semibold text-slate-800 dark:text-slate-200">Git CI/CD Pipelines</span>
-                        </div>
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Tools & DevOps</h3>
+                    <p class="text-xs text-slate-600 dark:text-slate-400 mb-4">Version control, CI/CD automated build pipelines, and project management tools.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-xs font-semibold rounded-lg text-slate-700 dark:text-slate-300">Git & GitHub</span>
+                        <span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-xs font-semibold rounded-lg text-slate-700 dark:text-slate-300">Azure DevOps</span>
+                        <span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-xs font-semibold rounded-lg text-slate-700 dark:text-slate-300">Docker Basics</span>
+                        <span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-xs font-semibold rounded-lg text-slate-700 dark:text-slate-300">Postman / Insomnia</span>
+                        <span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-xs font-semibold rounded-lg text-slate-700 dark:text-slate-300">Jira & Agile</span>
                     </div>
                 </div>
 
@@ -465,525 +453,66 @@
         </div>
     </section>
 
-    <section id="aitools" class="py-20 bg-slate-100 dark:bg-slate-950 relative border-y border-slate-300 dark:border-slate-800/80 transition-colors duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="glass-panel rounded-3xl p-8 sm:p-12 border border-amber-500/30 bg-gradient-to-br from-slate-100 via-white to-slate-100 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 shadow-2xl relative overflow-hidden">
-                <!-- Background Accent Glow -->
-                <div class="absolute -right-10 -bottom-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
-
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                    <div class="lg:col-span-7 space-y-4">
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs font-bold uppercase tracking-wider">
-                            <i class="fa-solid fa-bolt"></i> Company Productivity Advantage
-                        </div>
-                        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
-                            AI Developer Tools & Workflow
-                        </h2>
-                        <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
-                            I leverage state-of-the-art AI developer tools to significantly reduce sprint turnaround times, refactor complex code, auto-generate unit test suites, and seamlessly integrate OpenAI / Gemini models into business applications.
-                        </p>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                            <div class="p-4 rounded-xl bg-white dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 space-y-1">
-                                <div class="font-bold text-slate-900 dark:text-white text-sm flex items-center gap-2">
-                                    <i class="fa-solid fa-code text-amber-500 dark:text-amber-400"></i> Copilot & Cursor IDE
-                                </div>
-                                <p class="text-xs text-slate-500 dark:text-slate-400">Context-aware code generation, boilerplate removal, and fast API integration.</p>
-                            </div>
-                            <div class="p-4 rounded-xl bg-white dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 space-y-1">
-                                <div class="font-bold text-slate-900 dark:text-white text-sm flex items-center gap-2">
-                                    <i class="fa-solid fa-brain text-amber-500 dark:text-amber-400"></i> AI API Integrations
-                                </div>
-                                <p class="text-xs text-slate-500 dark:text-slate-400">Embedding LLM features (chatbots, auto-summarization, sentiment) into web apps.</p>
-                            </div>
-                        </div>
+    <!-- AI Tools Section -->
+    <section id="aitools" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="glass-panel rounded-3xl p-8 sm:p-12 border border-amber-500/30 relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 w-60 h-60 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-8 space-y-4">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 text-xs font-bold uppercase">
+                        <i class="fa-solid fa-bolt"></i> Productivity Multiplier
                     </div>
-
-                    <!-- Visual AI Stats -->
-                    <div class="lg:col-span-5 grid grid-cols-2 gap-4 text-center">
-                        <div class="p-5 rounded-2xl bg-white/80 dark:bg-slate-900/90 border border-amber-500/20 shadow-md">
-                            <div class="text-3xl font-extrabold text-amber-600 dark:text-amber-400">2x</div>
-                            <div class="text-xs text-slate-700 dark:text-slate-300 font-semibold mt-1">Faster Bug Resolution</div>
-                        </div>
-                        <div class="p-5 rounded-2xl bg-white/80 dark:bg-slate-900/90 border border-amber-500/20 shadow-md">
-                            <div class="text-3xl font-extrabold text-emerald-600 dark:text-emerald-400">40%</div>
-                            <div class="text-xs text-slate-700 dark:text-slate-300 font-semibold mt-1">Faster Feature Delivery</div>
-                        </div>
-                        <div class="p-5 rounded-2xl bg-white/80 dark:bg-slate-900/90 border border-amber-500/20 shadow-md">
-                            <div class="text-3xl font-extrabold text-cyan-600 dark:text-cyan-400">100%</div>
-                            <div class="text-xs text-slate-700 dark:text-slate-300 font-semibold mt-1">Clean Architecture</div>
-                        </div>
-                        <div class="p-5 rounded-2xl bg-white/80 dark:bg-slate-900/90 border border-amber-500/20 shadow-md">
-                            <div class="text-3xl font-extrabold text-red-600 dark:text-red-400">LLM</div>
-                            <div class="text-xs text-slate-700 dark:text-slate-300 font-semibold mt-1">Prompt Engineering</div>
-                        </div>
-                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">AI-Assisted Software Development Workflow</h2>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                        I utilize modern AI coding companions to accelerate development workflows, write comprehensive unit tests faster, refactor legacy codebases, and resolve bugs efficiently—delivering production-ready code with higher speed and accuracy.
+                    </p>
+                </div>
+                <div class="lg:col-span-4 flex justify-center lg:justify-end">
+                    <a href="#contact" class="px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold text-sm shadow-lg shadow-amber-500/20 transition-all">
+                        Hire AI-Accelerated Dev
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-xs font-extrabold text-red-500 uppercase tracking-widest mb-2">Professional Journey</h2>
-            <p class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">Work Experience</p>
-            <p class="text-slate-600 dark:text-slate-400 mt-3 text-sm">Key engineering roles, performance milestones, and enterprise system achievements.</p>
-        </div>
-
-        <div class="space-y-8 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:-ml-px before:w-0.5 before:bg-gradient-to-b before:from-red-500 before:via-slate-300 dark:before:via-slate-800 before:to-slate-300 dark:before:to-slate-800">
-            
-            <!-- Experience 1 -->
-            <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                <div class="flex items-center justify-center w-9 h-9 rounded-full border-4 border-slate-50 dark:border-slate-950 bg-red-600 text-white text-xs shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-lg shadow-red-600/30">
-                    <i class="fa-solid fa-laptop-code"></i>
-                </div>
-
-                <div class="w-[calc(100%-3rem)] md:w-[calc(50%-2.5rem)] glass-panel p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-red-500/40 transition-all shadow-xl">
-                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                        <h3 class="font-bold text-slate-900 dark:text-white text-xl">Glowstar Pvt. Ltd.</h3>
-                        <span class="px-3 py-1 rounded-full bg-red-500/10 text-red-600 dark:text-red-400 border border-red-500/20 text-xs font-bold">
-                            Apr 2023 - Jul 2025
-                        </span>
-                    </div>
-                    <p class="text-sm font-semibold text-red-600 dark:text-red-400 mb-4">Software Developer / Angular Specialist</p>
-                    
-                    <ul class="space-y-2.5 text-slate-600 dark:text-slate-300 text-sm">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-red-500 text-xs mt-1 shrink-0"></i>
-                            <span>Engineered core enterprise modules using <strong class="text-slate-900 dark:text-white font-medium">Angular 10+ & TypeScript</strong> for enterprise CRM software, implementing advanced reactive forms and state pipelines.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-red-500 text-xs mt-1 shrink-0"></i>
-                            <span>Developed feature-rich enterprise modules including PriceFlex Offers, Bidding System, Customer Management, and real-time Bid Inventory Handling.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-red-500 text-xs mt-1 shrink-0"></i>
-                            <span>Optimized high-volume Excel data-export on frontend & backend, <strong class="text-emerald-600 dark:text-emerald-400 font-semibold">improving processing performance by 60%</strong> and eliminating critical timeout issues.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-red-500 text-xs mt-1 shrink-0"></i>
-                            <span>Integrated AI-assisted prompt workflows & Copilot for refactoring complex code, cutting delivery timelines by 30%.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-red-500 text-xs mt-1 shrink-0"></i>
-                            <span>Architected and launched the <strong class="text-slate-900 dark:text-white font-medium">'MKB Trust'</strong> application entirely from scratch with scalable component structure and REST APIs.</span>
-                        </li>
-                    </ul>
-
-                    <div class="flex flex-wrap gap-1.5 mt-6 pt-4 border-t border-slate-200 dark:border-slate-800">
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">Angular 10+</span>
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">TypeScript</span>
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">RxJS / Signals</span>
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">.NET Core API</span>
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-amber-700 dark:text-amber-300 text-[11px] rounded-md font-medium">Copilot / AI</span>
-                    </div>
-                </div>
+    <!-- Contact / Footer Section -->
+    <footer id="contact" class="py-16 border-t border-slate-200 dark:border-slate-800/80 bg-slate-100 dark:bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+            <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Get In Touch</h2>
+            <p class="text-slate-600 dark:text-slate-400 text-sm max-w-md mx-auto">Looking for a developer to help build scalable, modern web applications? Feel free to reach out.</p>
+            <div class="flex justify-center gap-4 pt-2">
+                <a href="mailto:mukeshmahajan961@gmail.com" class="w-10 h-10 rounded-xl bg-slate-200 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 flex items-center justify-center text-slate-700 dark:text-slate-300 hover:border-red-500/50 transition-colors">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel:+917383966775" class="w-10 h-10 rounded-xl bg-slate-200 dark:bg-slate-900 border border-slate-300 dark:border-slate-800 flex items-center justify-center text-slate-700 dark:text-slate-300 hover:border-red-500/50 transition-colors">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
             </div>
-
-            <!-- Experience 2 -->
-            <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                <div class="flex items-center justify-center w-9 h-9 rounded-full border-4 border-slate-50 dark:border-slate-950 bg-slate-800 text-slate-300 text-xs shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                    <i class="fa-solid fa-code"></i>
-                </div>
-
-                <div class="w-[calc(100%-3rem)] md:w-[calc(50%-2.5rem)] glass-panel p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition-all shadow-xl">
-                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                        <h3 class="font-bold text-slate-900 dark:text-white text-xl">Prosol Techline</h3>
-                        <span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-400 border border-slate-300 dark:border-slate-700 text-xs font-bold">
-                            Dec 2021 - Feb 2023
-                        </span>
-                    </div>
-                    <p class="text-sm font-semibold text-slate-600 dark:text-slate-400 mb-4">Software Developer</p>
-                    
-                    <ul class="space-y-2.5 text-slate-600 dark:text-slate-300 text-sm">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-slate-400 dark:text-slate-500 text-xs mt-1 shrink-0"></i>
-                            <span>Built a full-scale scalable ERP platform leveraging Angular for dynamic rendering and .NET Core Web API / SQL Server backend framework.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-slate-400 dark:text-slate-500 text-xs mt-1 shrink-0"></i>
-                            <span>Designed interactive interface models for core modules including Billing, Inventory Management, and multi-tier User Administration.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-circle-check text-slate-400 dark:text-slate-500 text-xs mt-1 shrink-0"></i>
-                            <span>Contributed to <strong class="text-slate-900 dark:text-white font-medium">Care24's hybrid mobile application</strong> and web platform using Ionic Framework and Angular ecosystem.</span>
-                        </li>
-                    </ul>
-
-                    <div class="flex flex-wrap gap-1.5 mt-6 pt-4 border-t border-slate-200 dark:border-slate-800">
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">Angular</span>
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">Ionic</span>
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">SQL Server</span>
-                        <span class="px-2.5 py-1 bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400 text-[11px] rounded-md font-medium">ERP Systems</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="projects" class="py-24 bg-slate-200/40 dark:bg-slate-900/40 transition-colors duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs font-extrabold text-red-500 uppercase tracking-widest mb-2">Portfolio Highlights</h2>
-                <p class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">Featured Projects & Applications</p>
-                <p class="text-slate-600 dark:text-slate-400 mt-3 text-sm">High-impact solutions engineered using modern software frameworks and AI acceleration.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
-                <!-- Project 1 -->
-                <div class="glass-panel rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:border-red-500/50 transition-all flex flex-col justify-between group">
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-10 h-10 rounded-xl bg-red-500/10 text-red-500 flex items-center justify-center font-bold">
-                                <i class="fa-solid fa-chart-line"></i>
-                            </div>
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">Glowstar CRM</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-red-500 dark:group-hover:text-red-400 transition-colors">PriceFlex & Bidding Platform</h3>
-                        <p class="text-slate-600 dark:text-slate-400 text-xs mt-2 leading-relaxed">
-                            Dynamic pricing UI components with secure customer invitation workflows and live bidding pipelines, boosting sales conversions.
-                        </p>
-                    </div>
-                    <div class="p-6 pt-0">
-                        <div class="flex flex-wrap gap-1.5 mb-4">
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">Angular 10+</span>
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">RxJS</span>
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-amber-700 dark:text-amber-300">AI Prompt Optimization</span>
-                        </div>
-                        <div class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
-                            <i class="fa-solid fa-bolt"></i> Boosted conversion efficiency
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="glass-panel rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:border-red-500/50 transition-all flex flex-col justify-between group">
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-500 dark:text-blue-400 flex items-center justify-center font-bold">
-                                <i class="fa-solid fa-hand-holding-heart"></i>
-                            </div>
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">From Scratch</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors">MKB Trust Software</h3>
-                        <p class="text-slate-600 dark:text-slate-400 text-xs mt-2 leading-relaxed">
-                            Complete end-to-end development from scratch, establishing Angular architecture, component design, routing, and backend connection.
-                        </p>
-                    </div>
-                    <div class="p-6 pt-0">
-                        <div class="flex flex-wrap gap-1.5 mb-4">
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">Angular</span>
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">TypeScript</span>
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">REST APIs</span>
-                        </div>
-                        <div class="text-xs font-semibold text-blue-600 dark:text-blue-400 flex items-center gap-1">
-                            <i class="fa-solid fa-check"></i> Built 100% from scratch
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="glass-panel rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:border-red-500/50 transition-all flex flex-col justify-between group">
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-500 dark:text-purple-400 flex items-center justify-center font-bold">
-                                <i class="fa-solid fa-notes-medical"></i>
-                            </div>
-                            <span class="text-[10px] font-bold px-2.5 py-1 rounded-md bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">Prosol Techline</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-500 dark:group-hover:text-purple-400 transition-colors">Care24 Healthcare Platform</h3>
-                        <p class="text-slate-600 dark:text-slate-400 text-xs mt-2 leading-relaxed">
-                            Hybrid mobile app and responsive web platform using Ionic and Angular for client-side health tracking and service dispatch.
-                        </p>
-                    </div>
-                    <div class="p-6 pt-0">
-                        <div class="flex flex-wrap gap-1.5 mb-4">
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">Ionic</span>
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">Angular</span>
-                            <span class="text-[10px] px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-900 text-slate-700 dark:text-slate-400">Hybrid App</span>
-                        </div>
-                        <div class="text-xs font-semibold text-purple-600 dark:text-purple-400 flex items-center gap-1">
-                            <i class="fa-solid fa-mobile-screen"></i> Mobile & Web Integration
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="education" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-xs font-extrabold text-red-500 uppercase tracking-widest mb-2">Qualifications</h2>
-            <p class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">Education & Degrees</p>
-            <p class="text-slate-600 dark:text-slate-400 mt-3 text-sm">Academic foundations in computer applications and software engineering.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- MCA -->
-            <div class="glass-panel p-8 rounded-2xl border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-start gap-6 hover:border-red-500/40 transition-all">
-                <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-red-600 to-red-500 text-white flex items-center justify-center text-2xl shrink-0 shadow-lg shadow-red-600/20">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-                <div class="space-y-2">
-                    <span class="px-3 py-1 rounded-full bg-red-500/10 text-red-600 dark:text-red-400 border border-red-500/20 text-xs font-bold">
-                        2019 - 2021
-                    </span>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white">Master of Computer Application (MCA)</h3>
-                    <p class="text-slate-600 dark:text-slate-400 text-sm">Gujarat Technological University</p>
-                    <div class="pt-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
-                        Grade Point: <span class="text-red-600 dark:text-red-400 font-bold">6.17 CGPA</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- BCA -->
-            <div class="glass-panel p-8 rounded-2xl border border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-start gap-6 hover:border-slate-400 dark:hover:border-slate-700 transition-all">
-                <div class="w-14 h-14 rounded-2xl bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 flex items-center justify-center text-2xl shrink-0 border border-slate-300 dark:border-slate-700">
-                    <i class="fa-solid fa-university"></i>
-                </div>
-                <div class="space-y-2">
-                    <span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-400 border border-slate-300 dark:border-slate-700 text-xs font-bold">
-                        2016 - 2019
-                    </span>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white">Bachelor of Computer Application (BCA)</h3>
-                    <p class="text-slate-600 dark:text-slate-400 text-sm">Veer Narmad South Gujarat University</p>
-                    <div class="pt-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
-                        Score: <span class="text-slate-900 dark:text-slate-200 font-bold">59.96%</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-24 bg-slate-200/40 dark:bg-slate-900/40 relative transition-colors duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs font-extrabold text-red-500 uppercase tracking-widest mb-2">Get In Touch</h2>
-                <p class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">Let's Discuss Opportunities</p>
-                <p class="text-slate-600 dark:text-slate-400 mt-3 text-sm">Available for full-time Software Developer, Senior Angular, or Full-Stack Engineering roles.</p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                
-                <!-- Contact Info Cards -->
-                <div class="lg:col-span-5 space-y-4">
-                    <div class="glass-panel p-6 rounded-2xl border border-slate-200 dark:border-slate-800 flex items-center gap-4 hover:border-red-500/40 transition-all">
-                        <div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-500 flex items-center justify-center text-xl shrink-0">
-                            <i class="fa-solid fa-envelope"></i>
-                        </div>
-                        <div>
-                            <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Email Address</div>
-                            <a href="mailto:mukeshmahajan961@gmail.com" class="text-sm font-bold text-slate-900 dark:text-white hover:text-red-500 transition-colors">mukeshmahajan961@gmail.com</a>
-                        </div>
-                    </div>
-
-                    <div class="glass-panel p-6 rounded-2xl border border-slate-200 dark:border-slate-800 flex items-center gap-4 hover:border-red-500/40 transition-all">
-                        <div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-500 flex items-center justify-center text-xl shrink-0">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div>
-                            <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Direct Phone</div>
-                            <a href="tel:+917383966775" class="text-sm font-bold text-slate-900 dark:text-white hover:text-red-500 transition-colors">+91 7383966775</a>
-                        </div>
-                    </div>
-
-                    <div class="glass-panel p-6 rounded-2xl border border-slate-200 dark:border-slate-800 flex items-center gap-4 hover:border-red-500/40 transition-all">
-                        <div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-500 flex items-center justify-center text-xl shrink-0">
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-                        <div>
-                            <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Location</div>
-                            <div class="text-sm font-bold text-slate-900 dark:text-white">Bardoli, Surat, Gujarat, India</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Interactive Form -->
-                <div class="lg:col-span-7 glass-panel p-8 rounded-2xl border border-slate-200 dark:border-slate-800">
-                    <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div>
-                                <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5">Your Name</label>
-                                <input type="text" required placeholder="John Doe" class="w-full bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-900 dark:text-slate-200 focus:outline-none focus:border-red-500 transition-colors">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5">Your Email</label>
-                                <input type="email" required placeholder="john@example.com" class="w-full bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-900 dark:text-slate-200 focus:outline-none focus:border-red-500 transition-colors">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5">Subject</label>
-                            <input type="text" required placeholder="Software Developer Role Inquiry" class="w-full bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-900 dark:text-slate-200 focus:outline-none focus:border-red-500 transition-colors">
-                        </div>
-
-                        <div>
-                            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5">Message</label>
-                            <textarea rows="4" required placeholder="Write your message here..." class="w-full bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-900 dark:text-slate-200 focus:outline-none focus:border-red-500 transition-colors"></textarea>
-                        </div>
-
-                        <button type="submit" id="submit-btn" class="w-full bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-600 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-red-600/30 transition-all flex items-center justify-center gap-2">
-                            <span>Send Message</span>
-                            <i class="fa-solid fa-paper-plane"></i>
-                        </button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer class="border-t border-slate-200 dark:border-slate-800/80 py-10 bg-slate-100 dark:bg-slate-950 text-slate-600 dark:text-slate-400 text-sm transition-colors duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-lg bg-red-600 flex items-center justify-center text-white font-bold text-xs">M</div>
-                <span class="font-bold text-slate-900 dark:text-white">Mukesh Mahajan</span>
-            </div>
-            <p class="text-xs text-slate-500">
-                © <span id="year">2026</span> Mukesh Mahajan. Software Developer Portfolio.
-            </p>
-            <div class="flex items-center gap-4 text-slate-600 dark:text-slate-400">
-                <a href="mailto:mukeshmahajan961@gmail.com" aria-label="Email" class="hover:text-red-500 transition-colors"><i class="fa-solid fa-envelope"></i></a>
-                <a href="tel:+917383966775" aria-label="Phone" class="hover:text-red-500 transition-colors"><i class="fa-solid fa-phone"></i></a>
-            </div>
+            <p class="text-xs text-slate-500 dark:text-slate-500 pt-8">&copy; Mukesh Mahajan. All rights reserved.</p>
         </div>
     </footer>
 
-    <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
-        <div class="glass-panel px-5 py-4 rounded-2xl border border-emerald-500/40 shadow-2xl flex items-center gap-3 bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
-            <div class="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-500 dark:text-emerald-400 flex items-center justify-center font-bold">
-                <i class="fa-solid fa-check"></i>
-            </div>
-            <div>
-                <p class="text-xs font-bold text-slate-900 dark:text-white" id="toast-title">Success!</p>
-                <p class="text-xs text-slate-600 dark:text-slate-300" id="toast-msg">Your message has been sent successfully.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="resume-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-md hidden">
-        <div class="glass-panel rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 max-w-2xl w-full p-6 sm:p-8 space-y-6 relative max-h-[90vh] overflow-y-auto custom-scrollbar">
-            <button onclick="toggleResumeModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white flex items-center justify-center">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-
-            <div class="flex items-center gap-3">
-                <div class="w-12 h-12 rounded-2xl bg-red-600 text-white flex items-center justify-center text-xl font-bold">
-                    <i class="fa-solid fa-file-invoice"></i>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white">Mukesh Mahajan</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400">Software Developer | 3+ Years Experience</p>
-                </div>
-            </div>
-
-            <div class="space-y-4 text-xs text-slate-600 dark:text-slate-300 border-t border-slate-200 dark:border-slate-800 pt-4">
-                <p class="leading-relaxed">
-                    <strong>Profile Summary:</strong> Experienced Software Developer specializing in modern web development with Angular (Signals/Standalone), TypeScript, .NET Core Web API, and state-of-the-art AI developer tools (GitHub Copilot, LLM Prompting, Cursor). Experienced in building scalable enterprise systems, optimizing application speed by 60%, and leading front-to-back delivery.
-                </p>
-
-                <div class="grid grid-cols-2 gap-4 bg-slate-100 dark:bg-slate-950/60 p-4 rounded-xl border border-slate-200 dark:border-slate-800">
-                    <div>
-                        <span class="text-slate-500 dark:text-slate-400 font-medium">Core Tech:</span>
-                        <p class="font-semibold text-slate-800 dark:text-slate-200 mt-0.5">Angular 17+, TypeScript, RxJS, Signals</p>
-                    </div>
-                    <div>
-                        <span class="text-slate-500 dark:text-slate-400 font-medium">Backend & AI:</span>
-                        <p class="font-semibold text-slate-800 dark:text-slate-200 mt-0.5">.NET Core API, SQL, Copilot, AI Tools</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex flex-wrap gap-3 pt-2">
-                <a href="mailto:mukeshmahajan961@gmail.com" class="flex-1 py-3 bg-red-600 hover:bg-red-700 text-white font-bold text-xs text-center rounded-xl transition-all">
-                    Contact for PDF Resume
-                </a>
-                <button onclick="toggleResumeModal()" class="px-5 py-3 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold text-xs rounded-xl hover:bg-slate-300 dark:hover:bg-slate-700 transition-all">
-                    Close
-                </button>
-            </div>
-        </div>
-    </div>
-
+    <!-- Simple Theme and Menu Script -->
     <script>
-        // Update year dynamically
-        document.getElementById('year').textContent = new Date().getFullYear();
-
-        /* Theme Switcher Toggle Logic */
         function toggleTheme() {
-            const html = document.documentElement;
-            const isDark = html.classList.toggle('dark');
+            const isDark = document.documentElement.classList.toggle('dark');
             localStorage.setItem('theme', isDark ? 'dark' : 'light');
-            updateThemeIcons(isDark);
         }
 
-        function updateThemeIcons(isDark) {
-            const themeIcons = document.querySelectorAll('.theme-icon');
-            const themeTexts = document.querySelectorAll('.theme-text');
-            themeIcons.forEach(icon => {
-                if (isDark) {
-                    icon.className = 'theme-icon fa-solid fa-sun text-amber-400';
-                } else {
-                    icon.className = 'theme-icon fa-solid fa-moon text-slate-700';
-                }
-            });
-            themeTexts.forEach(text => {
-                text.textContent = isDark ? 'Light Mode' : 'Dark Mode';
-            });
-        }
-
-        // Initialize icons on DOM content load
-        document.addEventListener('DOMContentLoaded', () => {
-            const isDark = document.documentElement.classList.contains('dark');
-            updateThemeIcons(isDark);
-        });
-
-        // Mobile Menu Toggle
-        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-        const menuIcon = document.getElementById('menu-icon');
-
-        menuBtn.addEventListener('click', () => {
-            const isHidden = mobileMenu.classList.contains('hidden');
-            if (isHidden) {
-                mobileMenu.classList.remove('hidden');
-                menuIcon.classList.remove('fa-bars');
-                menuIcon.classList.add('fa-xmark');
-            } else {
-                mobileMenu.classList.add('hidden');
-                menuIcon.classList.remove('fa-xmark');
-                menuIcon.classList.add('fa-bars');
-            }
-        });
-
-        // Close mobile drawer on link click
-        document.querySelectorAll('.mobile-link').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-                menuIcon.classList.remove('fa-xmark');
-                menuIcon.classList.add('fa-bars');
+        
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
             });
-        });
-
-        // Resume Modal Toggle
-        function toggleResumeModal() {
-            const modal = document.getElementById('resume-modal');
-            modal.classList.toggle('hidden');
         }
 
-        // Skill Filtering Logic
         function filterSkills(event, category) {
             const buttons = document.querySelectorAll('.skill-btn');
-            buttons.forEach(btn => {
-                btn.classList.remove('bg-red-600', 'text-white', 'shadow-md');
-                btn.classList.add('bg-slate-200', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
-            });
-
-            const activeBtn = event.currentTarget;
-            activeBtn.classList.remove('bg-slate-200', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
-            activeBtn.classList.add('bg-red-600', 'text-white', 'shadow-md');
+            buttons.forEach(btn => btn.classList.remove('bg-red-600', 'text-white'));
+            event.target.classList.add('bg-red-600', 'text-white');
 
             const cards = document.querySelectorAll('.skill-card');
             cards.forEach(card => {
@@ -995,37 +524,9 @@
             });
         }
 
-        // Contact Form Submission (In-DOM Toast Notification)
-        function handleFormSubmit(event) {
-            event.preventDefault();
-            const submitBtn = document.getElementById('submit-btn');
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i> Sending...`;
-
-            setTimeout(() => {
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = `<span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>`;
-                document.getElementById('contact-form').reset();
-
-                // Show toast
-                const toast = document.getElementById('toast');
-                toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
-                
-                setTimeout(() => {
-                    toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
-                }, 4000);
-            }, 1200);
+        function toggleResumeModal() {
+            alert("Resume download feature linked!");
         }
-
-        // Header Background Resize On Scroll
-        window.addEventListener('scroll', () => {
-            const header = document.getElementById('main-header');
-            if (window.scrollY > 50) {
-                header.classList.add('py-2');
-            } else {
-                header.classList.remove('py-2');
-            }
-        });
     </script>
 </body>
 </html>
